@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 6%, rgba(0,212,255,1) 100%);
+   
+}
+.container{
+    margin: 100px;
+    text-align: center;
+}
+h1{
+    font-size: 4em;
+    color: white;
+}
+p{
+    font-size: 5em;
+    color: white;
+}
+button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.2em;
+    width: 180px;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #65c7f7;
+    color: white;
+    transition: 0.4s;
+    
+}
